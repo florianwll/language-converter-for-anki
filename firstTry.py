@@ -1,49 +1,55 @@
-import os
 import requests
-from bs4 import BeautifulSoup
+#author: https://github.com/WadRex 
 
-def convert_text_to_speech(word, lang):
-    url = 'https://soundoftext.com/#learn'
-    payload = {
-        'text': word,
-        'lang': lang
+# {
+#     "engine": "google",
+#     "data": {
+#         "text": "Hello, world",
+#         "voice": "en-US"
+#     }
+# }
+
+
+# An HTTP status code of 200 with payload:
+
+# {
+#     "success": true,
+#     "id": "<RFC4122 uuid>"
+# }
+
+
+# https://soundoftext.com/
+
+def generator_audio(text, voice):
+    url = 'https://api.soundoftext.com/sounds'
+    data = {
+        'engine': 'google',
+        'data': {
+            'text': text,
+            'voice': voice
+        }
     }
-    headers = {
-        'User-Agent': 'Mozilla/5.0'
-    }
-    response = requests.post(url, data=payload, headers=headers)
+    response = requests.post(url, json=data)
+    return response.json().get('id')
 
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.content, 'html.parser')
-        audio_tag = soup.find('audio')
-        if audio_tag and audio_tag.has_attr('src'):
-            return audio_tag['src']
-        else:
-            print("Error: Audio source not found")
-    else:
-        print("Error:", response.status_code)
-    return None
+def get_audio(id):
+    url = f'https://api.soundoftext.com/sounds/{id}'
+    response = requests.get(url).json().get('location') # https://files.soundoftext.com/335668c0-4e29-11ed-a44a-8501b7b1aefa.mp3
+    return response
 
-def save_audio_file(audio_url, folder, file_name):
-    response = requests.get(audio_url)
-    if response.status_code == 200:
-        directory = os.path.join(os.getcwd(), folder)
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        file_path = os.path.join(directory, file_name)
-        with open(file_path, 'wb') as f:
-            f.write(response.content)
-        print(f"Audio file saved as {file_path}")
-    else:
-        print("Error:", response.status_code)
+def download_audio(url, file_name):
+    # append the mp3 to the tts_text
+    file_name = f'{file_name}.mp3'
 
-if __name__ == "__main__":
-    words = ["привет", "мир", "пример"]  # List of Russian words you want to convert
-    chosen_lang = "ru"  # Language code for Russian
-    folder_name = "words"  # Folder to save the audio files
+    response = requests.get(url)
+    with open(file_name, 'wb') as file:
+        file.write(response.content)
 
-    for word in words:
-        audio_url = convert_text_to_speech(word, chosen_lang)
-        if audio_url:
-            file_name = f"{word}.mp3"
-            save_audio_file(audio_url, folder_name, file_name)
+
+
+if __name__ == '__main__':
+    tts_text = "Я тебя люблю"
+    voice = 'ru-RU'
+    id = generator_audio(tts_text, voice)
+    url = get_audio(id)
+    download_audio(url, tts_text)
