@@ -1,0 +1,148 @@
+хобби - Hobby
+кино - Kino
+волейбол - Volleyball
+хоккей - Hockey, Eishockey
+танец - Tanz
+рыбалка - Angeln
+шопинг - Einkaufen, Shoppen
+бадминтон - Federballspiel
+гандбол - Handball
+скейтбординг - Skateboarding
+йога - Yoga
+любить - mögen, lieben
+классика - Klassik
+особенно - besonders
+слушать - hören, zuhören
+читать - lesen
+свободное время - Freizeit
+сидеть - sitzen
+Интернет - Internet
+сидеть в Интернете - ugs. im Internet surfen
+смотреть - (an)sehen, (an)schauen
+телевизор - Fernseher
+гулять - spazieren gehen
+парк - Park
+лес - Wald
+плавать - schwimmen
+бассейн - Schwimmbad
+дача - Datscha, Landhaus
+сад - (Obst-)Garten
+встречаться - sich treffen, sich begegnen
+встречаться с друзьями - sich mit Freunden treffen
+общаться - kommunizieren, verkehren mit
+отдыхать - sich erholen, sich ausruhen
+природа - Natur
+житель - Einwohner
+результат - Ergebnis
+рейтинг - Rating, Einstufung
+сайт - Webseite
+детектив - Krimi
+сериал - Serie
+телеканал - Fernsehsender
+культура - Kultur
+сочинцы - Einwohner von Sotschi
+книга - Buch
+фантастика - Science-Fiction
+фэнтези - Fantasy
+часто - oft
+форум - Forum
+чат - Chat
+Ватсап - Whatsapp
+Телеграм - Telegram
+Инстаграм - Instagram
+Фейсбук - Facebook
+молодые люди - junge Leute
+скучно - langweilig
+музей - Museum
+выставка - Ausstellung
+ведь - doch
+Олимпиада - Olympiade
+играть - spielen
+эфир - Live-Übertragung
+радиостанция - Rundfunksender
+звонок - Anruf
+туризм - Tourismus
+велоспорт - Radsport
+факультет - Fakultät
+математика - Mathematik
+экстремальный спорт - Extremsport
+например - zum Beispiel
+рафтинг - Rafting, Wildwassersport
+велокросс - Radrennen
+классно - ugs. klasse
+изучать - lernen, studieren
+спортменеджмент - Sportmanagement
+маркетинг - Marketing, Vermarktung
+флейта - Flöte
+Саксофон - Saxofon
+Балалайка - Balalaika
+Шахматы - Schach
+Киборд - Keyboard
+Планшет - Tablet
+кататься - fahren; spazieren fahren
+обычно - gewöhnlich
+воскресенье - Sonntag
+понедельник - Montag
+вторник - Dienstag
+среда - Mittwoch
+четверг - Donnerstag
+пятница - Freitag
+суббота - Samstag
+сегодня - heute
+Когда? - Wann?
+В какой день? - An welchem Tag?
+день - Tag
+неделя - Woche
+пианино - Klavier
+дискотека - Diskothek, Disco
+Куда? - Wohin?
+ходить - gehen
+поэтому - deshalb
+кинотеатр - Kino
+шахматист - Schachspieler
+зоопарк - Zoo
+туда - dorthin
+Дерево Дружбы - Baum der Freundschaft
+иногда - manchmal
+альпинизм - Bergsteigen
+гора - Berg
+бегать - laufen, rennen
+фитнес-клуб - Fitnessclub
+отдых - Erholung
+гольф - Golf
+тур - Tour
+отпуск - Urlaub
+кататься на лыжах - Ski laufen
+сноубординг - Snowboarding
+сёрфинг - Surfen, Wellenreiten
+дайвинг - Tauchen
+поло - Wasserpolo
+альпинист - Bergsteiger
+просто - einfach
+дорого - teuer
+Не за что. - Keine Ursache. Nichts zu danken.
+Всего доброго! - Alles Gute!
+До субботы! - Bis Samstag!
+Всего хорошего! - Alles Gute!
+дельфинарий - Delfinarium
+кайкинг - Kajak fahren
+кайтсёрфинг - Kitesurfen
+парасейлинг - Parasailing
+популярный - populär, beliebt
+кинофестиваль - Filmfestival
+арт-фестиваль - Kunstfestival
+кулинарный фестиваль - Kochfestival
+океанариум - Meeresmuseum
+аквапарк - Aquapark
+шоу - Show, Vorführung
+мастер-класс - Fachseminar, Workshop
+чемпионат - Meisterschaft
+барбекю - Grillen
+актуальный - aktuell
+стритбол - Streetball
+бейсбол - Baseball
+инди - Indiemusik
+вейксерфинг - Wakesurfen
+вейкским - Wakeskim
+электричество - Elektrizität, Strom
+электроника - Elektronik
